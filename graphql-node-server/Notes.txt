@@ -1,0 +1,17 @@
+Credits:
+- https://www.youtube.com/watch?v=SEMTj8w04Z8&t=267s
+
+Steps:
+- npm init
+// can omit axios and use fetch
+- npm i graphql express express-graphql axios
+// nodemon will monitor changes
+- npm i -D nodemon 
+// at package.json
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+- npm i cors --save
+  - const cors = require("cors");
+  - app.use(cors());

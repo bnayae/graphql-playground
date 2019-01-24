@@ -1,0 +1,7 @@
+# dependencies:
+- Apollo: https://www.apollographql.com/docs/react/essentials/get-started.html
+    - npm install apollo-boost react-apollo graphql --save
+- npm i classnames moment react-moment --save
+    - npm install @types/classnames
+- npm i react-router-dom --save
+    - npm install @types/react-router-dom
